@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-6574,resizemode-75,msid-107312073/wealth/save/can-you-use-paytm-wallet-after-february-29-heres-what-all-paytm-users-need-to-know.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.businesstoday.in/technology/news/story/paytm-app-users-get-option-to-purchase-new-fastags-from-hdfc-bank-check-step-by-step-process-422850-2024-03-26" target="_blank">Paytm app users get option to purchase new FASTags from HDFC Bank; check step-by-step process</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://i.guim.co.uk/img/media/0621999f71480f4c280edec7673bdb4bd26b5d08/0_0_6528_3917/master/6528.jpg?width=465&dpr=1&s=none" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.deccanherald.com/technology/did-your-instagram-account-get-disabled-heres-how-to-recover-it-2952799"target="_blank">Did your Instagram account get disabled? Here's how to recover it</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-09/greentech.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.project-syndicate.org/commentary/china-faster-green-transition-good-thing-by-stuart-p-m-mackintosh-2024-03"target="_blank">"China Doubles Down on Green Tech and the Energy Transition"</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+        <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2023/over_m.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.newsbytesapp.com/news/auto/lamborghini-sees-opportunity-with-ice-technology-even-after-2030/story"target="_blank">“Lamborghini CEO envisions a future for internal combustion engine technology"</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.aboutamazon.com/news/devices/amazon-alexa-generative-ai"target="_blank">Amazon previews the future of Alexa with generative AI</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://media.rswebsols.com/wp-content/uploads/2023/04/digitization-healthcare-electronic-insurance-data-network-heart-technology-future-medicine-920x518.jpg?strip=all&lossy=1&ssl=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.cnbc.com/2024/03/25/eu-launches-probe-into-meta-apple-and-alphabet-under-sweeping-new-tech-law.html"target="_blank">10 Big Tech Innovations to Rule the Future of Healthcare</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://www.imf.org/wp-content/uploads/2018/11/BLOG-1024x600-gender-girls-on-computer-vgajic-iStock-542962398.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.imf.org/en/Blogs/Articles/2018/11/16/blog-Women-Technology-the-Future-of-Work"target="_blank">Women, Technology, and the Future of Work</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.aaas.org/epi-center/future-voting-technology"target="_blank">The Future of Voting Technology | American Association for the Advancement of Science</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://visagetechnologies.com/app/uploads/2022/11/Beauty-tech-what-is-it-copy.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://timesofindia.indiatimes.com/blogs/voices/how-technology-is-seeping-into-the-future-of-the-beauty-industry/"target="_blank">How technology is seeping into the future of the beauty industry?</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="technology.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+        
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>

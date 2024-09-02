@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="help.html">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                   
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="setting.html">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/03/image-2024-03-30t151116.443-2024-03-870783d5e94bb0e689507676dcd53ecd.jpg?impolicy=website&width=640&height=480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.news18.com/movies/yuddham-to-acharya-south-multi-starrers-that-tanked-at-the-box-office-8833781.html" target="_blank">Yuddham To Acharya, South Multi-starrers That Tanked At The Box Office</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 15: 21 Pm IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/03/image-2024-03-30t144523.008-2024-03-9335b60229306c2b96518d04aa589120.jpg?impolicy=website&width=640&height=480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.news18.com/movies/actress-shivani-rajashekars-denim-outfit-is-perfect-casual-summer-wear-8833751.html"target="_blank">Actress Shivani Rajashekar's Denim Outfit Is Perfect Casual Summer Wear</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2023/10/untitled-design-2023-10-06t131123.107-2023-10-f86f10a516529f9df4e723a718226f02.jpg?impolicy=website&width=640&height=480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.news18.com/movies/pathaan-2-big-update-shah-rukh-khan-to-begin-shoot-by-2024-end-siddharth-anand-to-not-direct-it-8833700.html"target="_blank">Pathaan 2 BIG Update: Shah Rukh Khan To Begin Shoot By 2024 End, Siddharth Anand To NOT Direct It</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+        <p class="card-text">Time: 14:00 PM IST</p>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/03/image-2024-03-30t134949.145-2024-03-f9a46737a4a54a16fe37a778a235a7f9.jpg?impolicy=website&width=640&height=480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.news18.com/movies/when-ajith-kumar-got-upset-after-director-saran-didnt-offer-him-his-2006-film-vattaram-8833673.html"target="_blank">When Ajith Kumar Got Upset After Director Saran Didn’t Offer Him His 2006 Film Vattaram</a></h5>
+              <p class="card-text">Date: March 29, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/03/image-2024-03-30t130900.270-2024-03-b887500d8fd5d466720c8b72b6b6fac4.jpg?impolicy=website&width=640&height=480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.news18.com/movies/why-actress-varalaxmi-sarathkumar-rejected-the-2004-tamil-hit-film-kadhal-8833628.html"target="_blank">Why Actress Varalaxmi Sarathkumar Rejected The 2004 Tamil Hit Film Kadhal</a></h5>
+              <p class="card-text">Date:  Mar 27, 2024, </p>
+              <p class="card-text">Time: 13:15 IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/03/untitled-design-86-2024-03-595a0fc206d254b69e482342ad4d1cec.jpg?impolicy=website&width=640&height=480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.news18.com/movies/10-year-old-sons-death-to-failed-first-marriage-a-look-at-prakash-rajs-personal-life-8833699.html"target="_blank">10-year-old Son's Death To Failed First Marriage, A Look At Prakash Raj's Personal Life</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 09:16 IST</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://static.toiimg.com/thumb/msid-108896307,imgsize-30286,width-400,resizemode-4/108896307.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/vijay-deverakonda-confirms-his-desire-for-love-marriage-stays-mum-on-rashmika-mandanna-relationship-rumors/articleshow/108896203.cms"target="_blank">Vijay Deverakonda confirms his desire for "love marriage"; stays mum on Rashmika Mandanna relationship rumors</a></h5>
+              <p class="card-text">Date: March 28, 2024</p>
+              <p class="card-text">Time: 9:03 pm IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.toiimg.com/thumb/msid-108877081,imgsize-1169564,width-400,resizemode-4/108877081.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/allu-arjuns-wax-statue-reveal-at-madame-tussauds-heartfelt-moment-with-brother/articleshow/108877081.cms"target="_blank">Allu Arjun shares a heartfelt picture with brother, asks wife, 'can you handle two Arjuns?' after his wax statue revealation at Madame Tussauds</a></h5>
+              <p class="card-text">Date: March 29, 2024</p>
+              <p class="card-text">Time: 6:09 pm IST </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.toiimg.com/thumb/msid-108875690,imgsize-1335533,width-400,resizemode-4/108875690.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/vishwak-sens-mechanic-rocky-first-look-unveiled-on-his-birthday/articleshow/108875690.cms"target="_blank">The makers of Vishwak Sen's 10th film, 'Mechanic Rocky' unveils the actor's first look on his birthday</a></h5>
+              <p class="card-text">Date: March 289, 2024</p>
+              <p class="card-text">Time: 5:03 pm IST</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>

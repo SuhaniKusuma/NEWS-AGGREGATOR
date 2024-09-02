@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="help.html">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                   
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="setting.html">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.news18.com/ibnlive/uploads/2023/03/violence-against-women.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.who.int/news-room/fact-sheets/detail/violence-against-women" target="_blank">Violence against women</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://pbs.twimg.com/profile_images/1717013664954499072/2dcJ0Unw_400x400.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.moneycontrol.com/news/world/apple-to-hold-worldwide-developers-conference-from-june-10-12527381.html"target="_blank">'Apple to hold Worldwide Developers Conference from June 10</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://cdn.britannica.com/57/244757-131-EBAFDFE0/Hindu-Holi-Festival-Mathura-Uttar-Pradesh-India.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://news.abplive.com/videos/news/holi-2024-from-mathura-to-punjab-take-a-look-at-world-wide-celebrations-of-festival-of-colours-1674713"target="_blank">Holi 2024: From Mathura to Punjab, take a look at world-wide celebrations of festival of colours</a></h5>
+            
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://img.jagranjosh.com/imported/images/E/GK/economic-outlook.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.imf.org/en/Publications/WEO/Issues/2024/01/30/world-economic-outlook-update-january-2024"target="_blank">World Economic Outlook Update, January 2024: Moderating Inflation and Steady Growth Open Path to Soft Landing</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.mywestford.com/wp-content/uploads/2022/05/tour.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.unwto.org/news/international-tourism-to-reach-pre-pandemic-levels-in-2024"target="_blank">International Tourism to Reach Pre-Pandemic Levels in 2024</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://cdn.who.int/media/images/default-source/gap/who-in-field.jpg?sfvrsn=14d44631_2" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.who.int/news/item/05-06-2023-the-european-commission-and-who-launch-landmark-digital-health-initiative-to-strengthen-global-health-security"target="_blank">The European Commission and WHO launch landmark digital health initiative to strengthen global health security</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://assets.weforum.org/editor/37xJ37e4oMJB_vzqsgCEv0qxhWOsiyKXt0aMc1I9VMM.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.nytimes.com/interactive/2023/world/global-heat-map-tracker.html"target="_blank">Global Heat Map: Tracking Extreme Heat Across Europe and Asia</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.amnesty.org/en/wp-content/uploads/2023/10/GettyImages-1718765697-1-1468x710.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.amnesty.org/en/latest/news/2023/10/israel-palestinian-armed-groups-must-be-held-accountable-for-deliberate-civilian-killings-abductions-and-indiscriminate-attacks/"target="_blank">Israel: Palestinian armed groups must be held accountable for deliberate civilian killings, abductions and indiscriminate</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/technology/artificial-intelligence/ai-is-key-for-business-growthfindability-sciences-ceo-anand-mahurkar-9231500/"target="_blank">AI is key for business growth as it enables data-driven decisions: Findability Sciences CEO Anand Mahurkar</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="world.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="world1.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="world1.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>

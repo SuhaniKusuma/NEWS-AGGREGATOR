@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="help.html">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                   
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="setting.html">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Karnataka-1st-PUC-Results-2024.jpg?w=750" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/education/karnataka-1st-puc-result-2024-live-updates-kseab-puc-1-result-today-at-karresults-nic-in-direct-link-9238258/" target="_blank">Karnataka 1st PUC Result 2024 Live Updates: KSEAB results link at karresults.nic.in soon</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">10:11 IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/IIT-Tirupati.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/education/iit-tirupati-invites-applications-for-summer-internships-jee-main-2024-9233889/"target="_blank">IIT Tirupati invites applications for summer internships</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Lead-Image-1.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/education/sponsored-education/heres-how-acharya-is-revolutionizing-the-higher-education-game-9239565/"target="_blank">Here’s How Acharya is Revolutionizing the Higher Education Game</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+        <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Kota-feature.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/education/jee-neet-coaching-hub-kota-misrepresented-city-says-district-collector-ravindra-goswami-9202943/"target="_blank">JEE, NEET coaching hub Kota is a misrepresented city: District Collector Ravindra Goswami</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.toiimg.com/thumb/msid-108813887,imgsize-24956,width-400,resizemode-4/108813887.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://timesofindia.indiatimes.com/education/news/ts-tet-2024-registration-begins-direct-link-to-apply-check-eligibility-fee-and-other-details/articleshow/108813459.cms"target="_blank">TS TET 2024 registration begins: Direct link to apply; check eligibility, fee and other details</a></h5>
+              <p class="card-text">Date:  Mar 27, 2024, </p>
+              <p class="card-text">Time: 13:15 IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2023/11/board-exam_1600.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/education/bihar-board-class-10th-result-2024-date-more-girl-students-enrolling-in-matric-exams-9220310/"target="_blank">Bihar Board Class 10th Result 2024 Date: More girl students enrolling in Matric exams</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 09:16 IST</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://c.ndtvimg.com/2020-08/ojne0fso_iim-bangalore_625x300_24_August_20.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.ndtv.com/education/iim-bangalore-witnesses-record-placements-with-median-annual-package-rs-32-5-lakh-5329035"target="_blank">IIM Bangalore Witnesses Record Placements With Median Annual Package ₹ 32.5 Lakh</a></h5>
+              <p class="card-text">Date: March 28, 2024</p>
+              <p class="card-text">Time: 9:03 pm IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://c.ndtvimg.com/2023-12/rbp7en3g_nmc-new-logo_625x300_01_December_23.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.ndtv.com/education/nmc-releases-new-list-of-colleges-that-will-start-postgraduate-medical-course-5327887"target="_blank">NMC Releases New List Of Colleges That Will Start Postgraduate Medical Course</a></h5>
+              <p class="card-text">Date: March 28, 2024</p>
+              <p class="card-text">Time: 6:09 pm IST </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://c.ndtvimg.com/2023-02/lochff98_icsi_625x300_28_February_23.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.ndtv.com/education/government-shipbuilding-company-hiring-company-secretaries-and-other-professionals-check-details-5327492"target="_blank">Government Shipbuilding Company Hiring Company Secretaries And Other Professionals, Check Details</a></h5>
+              <p class="card-text">Date: March 28, 2024</p>
+              <p class="card-text">Time: 5:03 pm IST</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>

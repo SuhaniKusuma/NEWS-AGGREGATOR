@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - News Aggregator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6; /* Add space between lines */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul li a.active {
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h3 {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Help - News Aggregator</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="help.html" class="active">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Help Section</h2>
+            <p>Welcome to the help section of our news aggregator. Here you can find answers to common questions.</p>
+
+            <h3>Frequently Asked Questions (FAQs)</h3>
+            <ul>
+                <li><strong>How do I use the search feature?</strong><br>
+                    To search for specific news topics, simply enter your query in the search bar located at the top of the page and press Enter or click the Search button.</li>
+                <li><strong>Can I filter news by category?</strong><br>
+                    Yes, you can filter news articles by category using the navigation menu on the homepage. Simply click on the category you're interested in to view related articles.</li>
+                <li><strong>How often is the news updated?</strong><br>
+                    Our news aggregator updates its content continuously throughout the day to provide you with the latest news from various sources.</li>
+                <li><strong>Do you offer a mobile app?</strong><br>
+                    Currently, we don't have a dedicated mobile app, but our website is fully responsive and optimized for mobile devices, so you can access it easily from your smartphone or tablet.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 News Aggregator. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      // Function to show the login modal when the page loads
+      window.onload = function() {
+        var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+        loginModal.show();
+      };
+  
+      // Search button event listener
+      document.getElementById("searchButton").addEventListener("click", function() {
+        var searchQuery = document.getElementById("searchInput").value.trim();
+        if (searchQuery !== "") {
+          // Redirect based on search query
+          switch (searchQuery.toLowerCase()) {
+            case "music":
+              window.location.href = "music.html";
+              break;
+            case "about":
+              window.location.href = "about.html";
+              break;
+            case "food":
+              window.location.href = "food.html";
+              break;
+            case "business":
+              window.location.href = "bussiness.html";
+              break;
+            case "travel":
+              window.location.href = "travel.html";
+              break;
+            case "schemes":
+              window.location.href = "schemes.html";
+              break;
+              case "technology":
+              window.location.href = "technology.html";
+              break;
+              case "world":
+              window.location.href = "world.html";
+              break;
+              case "science":
+              window.location.href = "science.html";
+              break;
+              case "education":
+              window.location.href = "education.html";
+              break;
+              case "contact":
+              window.location.href = "contact.html";
+              break;
+              case "weather":
+              window.location.href = "weather.html";
+              break;
+            default:
+              alert("No specific search option found for: " + searchQuery);
+              break;
+          }
+        } else {
+          alert("Please enter a search query.");
+        }
+      });
+    </script>
+     
+        
+    
+  
+</body>
+</html>

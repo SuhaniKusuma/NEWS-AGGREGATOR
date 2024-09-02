@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="help.html">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                 
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="setting.html">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Zomato-account-suspension.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/trending-in-india/zomato-account-suspension-leaves-delivery-agent-in-tears-on-eve-of-sisters-wedding-post-goes-viral-9239839/" target="_blank">Zomato account suspension leaves delivery agent in tears on eve of sister’s wedding, post goes viral</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Tinder-billboard-in-Kolkata.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/trending-in-india/wanted-premika-for-reo-tinders-new-billboard-has-kolkata-excited-9239570/"target="_blank">Wanted: ‘Premika for Reo’ – Tinder’s new billboard has Kolkata excited</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Shantanu-Moitra-shares-video-of-his-mother-celebrating-holi.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/trending-in-india/shantanu-moitras-mothers-holi-celebration-wins-hearts-online-9239460/"target="_blank">Shantanu Moitra’s mother’s Holi celebration wins hearts online. Watch</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+        <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/good-friday.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/good-friday-2024-quotes-photos-images-whatsapp-status-messages-9239320/"target="_blank">Good Friday 2024: Quotes, photos, images, whatsapp status and messages to share with your family and loved ones</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Digital-creator-encourages-women.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/trending-in-india/video-telling-women-indulge-in-favourite-things-more-often-strikes-chord-9238276/"target="_blank">‘Khane mein kya’: Video telling women to indulge in their favourite things more often strikes a chord</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Floor-collapse-in-China.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/trending-globally/portion-mall-floor-china-collapses-with-shopper-netizens-alarmed-9237489/"target="_blank">Watch: Portion of mall floor in China collapses along with shopper; netizens alarmed</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Untitled-design-2024-03-29T154619.202.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/business/ministry-of-corporate-affairs-finance-diversified-investment-strategy-minimise-risk-9240124/"target="_blank">‘Diversified investment strategy can minimise risk, cannot completely eliminate it’: Corporate Affairs Ministry</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.indianexpress.com/2024/03/Man-in-wheelchair-bungee-jumps.jpg?w=640" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/trending/trending-in-india/wheelchair-bound-man-bungee-jumps-netizens-shower-praises-9238095/"target="_blank">Watch: Wheelchair-bound man bungee jumps, netizens shower praises on him</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.financialexpress.com/wp-content/uploads/2024/03/RBI-on-finance-companies.jpg?w=1024" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.financialexpress.com/business/banking-finance-banks-to-remain-closed-for-14-days-in-april-2024-check-the-full-list-of-bank-holidays-here-3440657/"target="_blank">Banks to remain closed for 14 days in April 2024; Check the full list of bank holidays here</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="trending.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="trending.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="trending11.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>

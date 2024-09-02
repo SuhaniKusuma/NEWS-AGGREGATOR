@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile-info {
+            margin-bottom: 20px;
+        }
+        .profile-info label {
+            font-weight: bold;
+            display: block;
+        }
+        .profile-info p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .about-section {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .about-section h2 {
+            color: #333;
+        }
+        .about-section p {
+            color: #666;
+        }
+        .saved-items {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .saved-items h2 {
+            color: #333;
+        }
+        .saved-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .saved-item p {
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+        .saved-item img {
+            max-width: 100%; /* Set maximum width for the image */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile Page</h1>
+        
+        <!-- Personal Information -->
+        <div class="profile-info">
+            <h2>Personal Information</h2>
+            <label>Name:</label>
+            <p>Suhani </p>
+            <label>Age:</label>
+            <p>20</p>
+            <label>Location:</label>
+            <p>Warangal, India</p>
+        </div>
+        
+        <!-- Contact Information -->
+        <div class="profile-info">
+            <h2>Contact Information</h2>
+            <label>Email:</label>
+            <p>suhani@gmail.com</p>
+            <label>Phone:</label>
+            <p>8919*********</p>
+        </div>
+        
+        <!-- Saved Items -->
+        <div class="saved-items">
+            <h2>Saved Items</h2>
+            <div class="saved-item">
+                <h3>Saved Article</h3>
+                <p>Top 5 Destinations in Delhi for the Ultimate Holi Food Experience.</p>
+                <p>"Arvind Kejriwal's Time Limited, Madam Prepping For Post": Minister's Attack</p>
+                <p>Puri's Jagannath temple </p>
+            </div>
+            <div class="saved-item">
+                <h3>Saved Image</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rath_Yatra_Puri_07-11027.jpg/1280px-Rath_Yatra_Puri_07-11027.jpg" alt="Saved Image">
+            </div>
+        </div>
+        
+        <!-- About Section -->
+        <div class="about-section">
+            <h2>About Me</h2>
+            <p>Self disciplaned, speed learner</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      // Function to show the login modal when the page loads
+      window.onload = function() {
+        var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+        loginModal.show();
+      };
+  
+      // Search button event listener
+      document.getElementById("searchButton").addEventListener("click", function() {
+        var searchQuery = document.getElementById("searchInput").value.trim();
+        if (searchQuery !== "") {
+          // Redirect based on search query
+          switch (searchQuery.toLowerCase()) {
+            case "music":
+              window.location.href = "music.html";
+              break;
+            case "about":
+              window.location.href = "about.html";
+              break;
+            case "food":
+              window.location.href = "food.html";
+              break;
+            case "business":
+              window.location.href = "bussiness.html";
+              break;
+            case "travel":
+              window.location.href = "travel.html";
+              break;
+            case "schemes":
+              window.location.href = "schemes.html";
+              break;
+              case "technology":
+              window.location.href = "technology.html";
+              break;
+              case "world":
+              window.location.href = "world.html";
+              break;
+              case "science":
+              window.location.href = "science.html";
+              break;
+              case "education":
+              window.location.href = "education.html";
+              break;
+              case "contact":
+              window.location.href = "contact.html";
+              break;
+              case "weather":
+              window.location.href = "weather.html";
+              break;
+            default:
+              alert("No specific search option found for: " + searchQuery);
+              break;
+          }
+        } else {
+          alert("Please enter a search query.");
+        }
+      });
+    </script>
+     
+        
+    
+  
+</body>
+</html>

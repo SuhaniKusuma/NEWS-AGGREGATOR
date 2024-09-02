@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="help.html">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="setting.html">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://www.unwomen.org/sites/default/files/2022-12/Guatemala_UNTF_MG_2073_1200x800.jpg?t=1671722446" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.unwomen.org/en/news-stories/announcement/2022/12/international-womens-day-2023-digitall-innovation-and-technology-for-gender-equality" target="_blank">International Women’s Day 2023: “DigitALL: Innovation and technology for gender equality”</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.pharmaceutical-technology.com/wp-content/uploads/sites/24/2023/08/cholera-vaccine.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.who.int/news/item/19-10-2022-shortage-of-cholera-vaccines-leads-to-temporary-suspension-of-two-dose-strategy--as-cases-rise-worldwide"target="_blank">Shortage of cholera vaccines leads to temporary suspension of two-dose strategy, as cases rise worldwide</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.who.int/news/item/25-08-2020-global-polio-eradication-initiative-applauds-who-african-region-for-wild-polio-free-certification"target="_blank">Global polio eradication initiative applauds WHO African region for wild polio-free certification</a></h5>
+            
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://cdn.who.int/media/images/default-source/health-topics/vaccines-and-immunization/vaccine-es.jpg?sfvrsn=7d9c36f4_9" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.who.int/news/item/22-05-2020-at-least-80-million-children-under-one-at-risk-of-diseases-such-as-diphtheria-measles-and-polio-as-covid-19-disrupts-routine-vaccination-efforts-warn-gavi-who-and-unicef"target="_blank">At least 80 million children under one at risk of diseases such as diphtheria, measles and polio as COVID-19 disrupts ...</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.mywestford.com/wp-content/uploads/2022/05/tour.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.unwto.org/news/international-tourism-to-reach-pre-pandemic-levels-in-2024"target="_blank">International Tourism to Reach Pre-Pandemic Levels in 2024</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://cdn.who.int/media/images/default-source/gap/who-in-field.jpg?sfvrsn=14d44631_2" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.who.int/news/item/05-06-2023-the-european-commission-and-who-launch-landmark-digital-health-initiative-to-strengthen-global-health-security"target="_blank">The European Commission and WHO launch landmark digital health initiative to strengthen global health security</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://assets.weforum.org/editor/37xJ37e4oMJB_vzqsgCEv0qxhWOsiyKXt0aMc1I9VMM.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.nytimes.com/interactive/2023/world/global-heat-map-tracker.html"target="_blank">Global Heat Map: Tracking Extreme Heat Across Europe and Asia</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.amnesty.org/en/wp-content/uploads/2023/10/GettyImages-1718765697-1-1468x710.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.amnesty.org/en/latest/news/2023/10/israel-palestinian-armed-groups-must-be-held-accountable-for-deliberate-civilian-killings-abductions-and-indiscriminate-attacks/"target="_blank">Israel: Palestinian armed groups must be held accountable for deliberate civilian killings, abductions and indiscriminate</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://indianexpress.com/article/technology/artificial-intelligence/ai-is-key-for-business-growthfindability-sciences-ceo-anand-mahurkar-9231500/"target="_blank">AI is key for business growth as it enables data-driven decisions: Findability Sciences CEO Anand Mahurkar</a></h5>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="world.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="technology1.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>

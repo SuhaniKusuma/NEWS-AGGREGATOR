@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            height: 90%;
+            width:70%;
+           margin: 10px auto; /* Center the cards */
+            margin-bottom: 20px; 
+        }
+        .card-img-top {
+            height: 200px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+        .card-body {
+            height: 100%;
+        }
+     
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login page.html">INDEX</a>
+           <a class="navbar-brand"  href="about.html">ABOUT</a>
+           <a class="navbar-brand"  href="help.html">HELP</a>
+           <a class="navbar-brand" href="contact.html">CONTACT</a>
+           <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">WELCOME!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                   
+                  <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="setting.html">SETTINGS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   MORE CATEGORIES
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">WEATHER</a></li>
+                    <li><a class="dropdown-item" href="#">STOCK MARKET </a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">FOOD</a></li>
+                    <li><a class="dropdown-item" href="#">MUSIC</a></li>
+                    <li><a class="dropdown-item" href="#">GAMES</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>  <br>  <br>  <br>  <br>  <br> 
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://img.etimg.com/thumb/msid-108845104,width-300,height-225,imgsize-148840,resizemode-75/new-delhi-defence-minister-rajnath-singh-speaks-at-the-times-now-summit-2024-i-.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://economictimes.indiatimes.com/news/defence/government-open-to-change-in-agniveer-scheme-if-needed-rajnath-singh/articleshow/108845061.cms" target="_blank">Government open to change in Agniveer scheme if needed: Rajnath Singh</a></h5>
+              <p class="card-text">Date: March 28, 2024</p>
+              <p class="card-text">Time:02:35 PM IST</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://img.jagranjosh.com/imported/images/E/GK/bharatnet-image.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://economictimes.indiatimes.com/prime/media-and-communications/what-bharatnet-can-learn-from-the-rural-roads-scheme-involve-states-local-bodies-private-sector/primearticleshow/74108288.cms"target="_blank">What BharatNet can learn from the rural-roads scheme: involve states, local bodies, private sector</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 10:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://economictimes.indiatimes.com/prime/energy/half-baked-scheme-how-high-refill-cost-is-pushing-ujjwala-beneficiaries-back-to-chulhas/primearticleshow/68930159.cms"target="_blank">Half-baked scheme: how high refill cost is pushing Ujjwala beneficiaries back to chulhas</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+        <p class="card-text">Time: 01:17 PM IST</p>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://th-i.thgim.com/public/incoming/rfm39d/article67936925.ece/alternates/LANDSCAPE_1200/PTI02_27_2024_000350B.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.thehindu.com/news/national/telangana/telangana-govt-likely-to-announce-two-more-schemes-on-march-12/article67935344.ece"target="_blank">Telangana Govt likely to announce two more schemes on March 12</a></h5>
+              <p class="card-text">Date: March 11, 2024</p>
+              <p class="card-text">Time: 11:45 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.hindustantimes.com/ht-img/img/2024/02/26/550x309/Andhra-Pradesh-chief-minister-YS-Jagan-Mohan-Reddy_1708975254036.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.hindustantimes.com/india-news/jagan-is-banking-on-welfare-schemes-to-return-to-power-in-andhra-pradesh-101708975259374.html"target="_blank">Jagan is banking on welfare schemes to return to power in Andhra Pradesh</a></h5>
+              <p class="card-text">Date:  Feb 27, 2024, </p>
+              <p class="card-text">Time: 10:15 PM IST</p>
+            </div>  
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://bl-i.thgim.com/public/incoming/54210t/article67637772.ece/alternates/LANDSCAPE_1200/PTI12_14_2023_000065B.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://www.thehindubusinessline.com/news/national/telangana-govt-releases-funds-for-key-schemes/article67637555.ece"target="_blank">Telangana Govt releases funds for key schemes</a></h5>
+              <p class="card-text">Date: March 30, 2024</p>
+              <p class="card-text">Time: 09:16 IST</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+          
+       
+        
+      </div>
+      <div class="d-flex justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        // Function to show the login modal when the page loads
+        window.onload = function() {
+          var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+          loginModal.show();
+        };
+    
+        // Search button event listener
+        document.getElementById("searchButton").addEventListener("click", function() {
+          var searchQuery = document.getElementById("searchInput").value.trim();
+          if (searchQuery !== "") {
+            // Redirect based on search query
+            switch (searchQuery.toLowerCase()) {
+              case "music":
+                window.location.href = "music.html";
+                break;
+              case "about":
+                window.location.href = "about.html";
+                break;
+              case "food":
+                window.location.href = "food.html";
+                break;
+              case "business":
+                window.location.href = "bussiness.html";
+                break;
+              case "travel":
+                window.location.href = "travel.html";
+                break;
+              case "schemes":
+                window.location.href = "schemes.html";
+                break;
+                case "technology":
+                window.location.href = "technology.html";
+                break;
+                case "world":
+                window.location.href = "world.html";
+                break;
+                case "science":
+                window.location.href = "science.html";
+                break;
+                case "education":
+                window.location.href = "education.html";
+                break;
+                case "contact":
+                window.location.href = "contact.html";
+                break;
+                case "weather":
+                window.location.href = "weather.html";
+                break;
+              default:
+                alert("No specific search option found for: " + searchQuery);
+                break;
+            }
+          } else {
+            alert("Please enter a search query.");
+          }
+        });
+      </script>
+       
+          
+      
+    
+</body>
+      </html>
